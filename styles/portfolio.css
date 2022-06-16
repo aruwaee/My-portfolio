@@ -1,0 +1,9 @@
+/*font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+
+h1 {
+  color: blueviolet;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
