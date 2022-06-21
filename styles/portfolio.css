@@ -20,6 +20,7 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
 h1,
 h3,
 h4,
@@ -27,7 +28,6 @@ h5,
 h6 {
   color: blueviolet;
   font-family: var(--heading-font-family);
-  font-size: 80px;
 }
 .hero {
   background: var(--secondary-color);
@@ -110,9 +110,35 @@ nav a:hover,
 nav li.active {
   color: red;
 }
-
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: #080808;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-link a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 13px;
+  border-radius: 50%;
+  font-size: 18px;
+}
 img {
   border-radius: 10px;
+}
+
+h4 {
+  font-size: 50px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -120,6 +146,9 @@ img {
   }
   h2 {
     font-size: 30px;
+  }
+  h4 {
+    font-size: 20px;
   }
   hero {
     padding: 80px 20px;
@@ -137,5 +166,11 @@ img {
   }
   .pix {
     max-height: 40px;
+  }
+  footer .contact-box {
+    padding: 25px;
+  }
+  .email-link {
+    padding: 10px;
   }
 }
