@@ -31,35 +31,59 @@
   </head>
 
   <body>
-    <header>
-      <a href="/about.html">About Page</a>
-    </header>
-
     <div class="container">
-      <div class="hero">
-        <h1>Marymagdalene Udoefe</h1>
-        <h2 class="mb-5">Front-end Developer based in Nigeria</h2>
-        <div>
-          <a href="" class="btn btn-branding">Contact me</a>
-        </div>
+    <nav class="d-flex justify-content-between">
+      <img src="images/ICR_3003.jpg" class="pix d-none d-md-block" alt="" />
+      <ul>
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul></div>
+    </nav>
+    <div class="hero">
+      <p>Hello, I am</p>
+      <h1>Marymagdalene Udoefe</h1>
+      <h2 class="mb-5">Front-end Developer based in Nigeria</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
+    </div>
 
-      <p class="text-center m-5">Featured Projects which I've worked on.</p>
-
+    <p class="text-center m-5">Featured Projects which I've worked on.</p>
+    <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img src="images/Eating Healthy.png" class="img-fluid" alt="" />
         </div>
+      
+      <div class="col-6">
+        <div class="project-description">
+          <h2 class="mb-5">Eating Healthy Project</h2>
+          <p class="mb-5 text-muted">
+            Eating healthy is a basic necessity for every living thing
+            especially humans. To stay healthy, a balanced diet with fruits and
+            vegetables and little or no junk foods is important.
+          </p>
+          <a
+            href="https://www.shecodes.io/workshops/shecodes-basics-1c0d06df-1782-496c-b718-4fe1cf541575/projects/736796"
+            target="blank"
+            class="btn btn-project"
+          >
+            View project</a
+          >
+        </div>
+      </div>
+      <div class="row mb-7">
         <div class="col-6">
           <div class="project-description">
-            <h2 class="mb-5">Eating Healthy Project</h2>
+            <h2 class="mb-5">Weather App Project</h2>
             <p class="mb-5 text-muted">
-              Eating healthy is a basic necessity for every living thing
-              especially humans. To stay healthy, a balanced diet with fruits
-              and vegetables and little or no junk foods is important.
+              Designed to help view weather forecast, date, time and description
+              for different countries for up to 5 days.
             </p>
             <a
-              href="https://www.shecodes.io/workshops/shecodes-basics-1c0d06df-1782-496c-b718-4fe1cf541575/projects/736796"
+              href="https://timely-tartufo-fc4eb5.netlify.app/"
               target="blank"
               class="btn btn-project"
             >
@@ -67,29 +91,11 @@
             >
           </div>
         </div>
-        <div class="row mb-7">
-          <div class="col-6">
-            <div class="project-description">
-              <h2 class="mb-5">Weather App Project</h2>
-              <p class="mb-5 text-muted">
-                Designed to help view weather forecast, date, time and
-                description for different countries for up to 5 days.
-              </p>
-              <a
-                href="https://timely-tartufo-fc4eb5.netlify.app/"
-                target="blank"
-                class="btn btn-project"
-              >
-                View project</a
-              >
-            </div>
-          </div>
-          <div class="col d-none d-lg-block">
-            <img src="images/weather app.png" class="img-fluid" alt="" />
-          </div>
-          <footer><a href="/contact.html">Contact Me</a></footer>
+
+        <div class="col d-none d-lg-block">
+          <img src="images/weather app.png" class="img-fluid" alt="" />
         </div>
       </div>
-    </div>
+    
   </body>
 </html>

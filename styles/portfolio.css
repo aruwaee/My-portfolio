@@ -37,7 +37,7 @@ h6 {
 
 .hero p {
   margin: 0;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: bold;
 }
 .hero h2 {
@@ -83,18 +83,49 @@ h6 {
 .project-description {
   padding: 120px 60px;
 }
+nav {
+  padding: 20px 0;
+}
+.pix {
+  max-width: 100px;
+  max-height: 60px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272141;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active {
+  color: red;
+}
+
 img {
   border-radius: 10px;
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 40px;
+    font-size: 20px;
   }
   h2 {
     font-size: 30px;
   }
   hero {
     padding: 80px 20px;
+  }
+  hero p {
+    font-size: 25px;
   }
   .project-description {
     padding: 0;
@@ -104,7 +135,7 @@ img {
     text-align: center;
     padding: 0;
   }
-  .content-container h1 {
-    font-size: 35px;
+  .pix {
+    max-height: 40px;
   }
 }
